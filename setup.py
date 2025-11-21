@@ -174,7 +174,7 @@ if __name__ == '__main__':
     cmdclass = dict(clean=CleanCommand)
     cmdclass.update(versioneer.get_cmdclass())
     setup(name='ParmEd',
-          version=versioneer.get_version(),
+          version="3.4.4",
           description='Amber parameter file editor',
           author='Jason Swails',
           author_email='jason.swails@gmail.com',
